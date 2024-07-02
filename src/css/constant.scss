@@ -1,0 +1,16 @@
+$primary-color: #3498db;
+
+$breakpointTablet: 1500px;
+$breakpointMobile: 780px;
+
+@mixin mobile {
+  @media (max-width: $breakpointMobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $breakpointPC) {
+    @content;
+  }
+}

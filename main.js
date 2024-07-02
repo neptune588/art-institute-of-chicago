@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
@@ -22,3 +23,20 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+=======
+import { getArtworks, getAllArtworks } from './src/utils/axios'
+
+const params = {
+  limit: 10,
+  query: {
+    match: {
+      artist_title: 'Vincent van Gogh'
+    }
+  },
+  fields: ['id', 'title', 'artist_display', 'image_id']
+}
+
+const response = await getArtworks(params);
+
+console.log(response)
+>>>>>>> 3361a66d576eab692aa6f82cf1326029e2d181fe
