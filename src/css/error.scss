@@ -1,0 +1,22 @@
+@import url(./reset.css);
+@import url(../assets/fonts/fonts.css);
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .content {
+    .error-text {
+      text-align: center;
+    }
+    .error-text01 {
+      margin: 10px;
+      font-size: 70px;
+    }
+
+    .error-text02 {
+      font-size: 20px;
+    }
+  }
+}

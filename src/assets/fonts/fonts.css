@@ -1,12 +1,11 @@
 @font-face {
   font-family: "NotoSansKR";
-  src: url('./fonts/NotoSansKR-VariableFont_wght.ttf') format('truetype');
+  src: url("/NotoSansKR-VariableFont_wght.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-
 }
 
 /* 폰트 적용 예시 */
 body {
-  font-family: 'NotoSansKR', Arial, sans-serif;
+  font-family: "NotoSansKR", Arial, sans-serif;
 }
